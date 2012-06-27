@@ -19,12 +19,12 @@ PRODUCT_PACKAGES += GanOptimizer
 PRODUCT_NAME := cyanogen_jordan
 PRODUCT_BRAND := MOTO
 PRODUCT_DEVICE := jordan
-PRODUCT_MODEL := MB525
+PRODUCT_MODEL := MB526
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_SFX := JOREM_U3
 
 # Release name and versioning
-PRODUCT_RELEASE_NAME := Defy
+PRODUCT_RELEASE_NAME := Defy+
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 -include vendor/cyanogen/products/common_versions.mk
 

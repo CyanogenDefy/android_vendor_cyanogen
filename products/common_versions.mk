@@ -37,7 +37,7 @@ endif
 
 # added to keep same filenames
 ifdef CYANOGEN_NIGHTLY
-    CMVERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date +%Y%m%d)-NIGHTLY-$(CM_BUILD)
+    CMVERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date +%Y%m%d)-NIGHTLY-$(PRODUCT_RELEASE_NAME)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
